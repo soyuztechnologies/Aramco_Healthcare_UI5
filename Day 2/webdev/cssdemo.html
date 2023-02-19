@@ -1,0 +1,141 @@
+
+<html>
+    <head>
+        <style>
+            .box{
+                width:160px;
+                float:left;
+                margin: 10px;
+            }
+            .box-title{
+                color:red;
+                border: 1px solid black;
+                text-align: center;
+            }
+            .box-content{
+                color:blueviolet;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                border:1px solid black;
+                height:180px;
+                padding:10px;
+            }
+
+            ul{
+                list-style: none;
+                
+            }
+            li:hover{
+                background-color: forestgreen;
+                color:cyan;
+            }
+            li{
+                float:left;
+                border: 1px solid orange;
+                padding:10px;
+                background-color: chocolate;
+                color: white;
+                text-transform: capitalize;
+                font-family: cursive;
+            }
+            #idFn{
+                background-color: bisque;
+            }
+            input:focus{
+                background-color: black;
+                color:wheat;
+            }
+
+            #chandra{
+                border-collapse: collapse;
+            }
+            th,td{
+                border: 1px solid black;
+            }
+            tr:nth-child(even){
+                background-color: aquamarine;
+            }
+            tr:nth-child(odd){
+                background-color: beige;
+            }
+        </style>
+
+    </head>
+    <body>
+            <div class="box">
+                <div class="box-title">
+                    <h3 >What is HTML?</h3>
+                </div>
+                <div class="box-content">
+                    <p>HTML stands for Hyper Text Markup Language, it is used to create static web page.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-title">
+                    <h3 >What is CSS?</h3>
+                </div>
+                <div class="box-content">
+                    <p>CSS stands for Cascading Style Sheet, it is used to beautify HTML content.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-title">
+                    <h3 >What is JS?</h3>
+                </div>
+                <div class="box-content">
+                    <p>JS stands for Java Script, it is browser programming language.</p>
+                </div>
+            </div>
+
+            <div style="clear: left;">
+
+                <ul>
+                    <li>ABAP on HANA</li>
+                    <li>UI5</li>
+                    <li>Analytic Cloud</li>
+                    <li>SAP BTP</li>
+                </ul>
+
+            
+                <div style="clear: left;">
+            </div>
+
+            <h3>Personal details</h3>
+            <label>First Name</label>
+            <input id="idFn">
+            <label>Last name</label>
+            <input id="idLn">
+
+            <table id="chandra">
+                <thead>
+                    <tr>
+                        <th>Song Name</th>
+                        <th>Artist</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Beautiful</td>
+                        <td>Ed Sareen</td>
+                    </tr>
+                    <tr>
+                        <td>Jai ho</td>
+                        <td>A R Rehman</td>
+                    </tr>
+                    <tr>
+                        <td>Afreen</td>
+                        <td>Gulam Khan</td>
+                    </tr>
+                    <tr>
+                        <td>Jai ho</td>
+                        <td>A R Rehman</td>
+                    </tr>
+                    <tr>
+                        <td>Afreen</td>
+                        <td>Gulam Khan</td>
+                    </tr>
+                </tbody>
+    
+            </table>
+    </body>
+</html>

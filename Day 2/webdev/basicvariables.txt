@@ -1,0 +1,46 @@
+var x = 10;
+typeof(x);
+x = "10";
+typeof(x);
+var y = parseInt(x);
+y;
+var smoker = false;
+typeof(smoker);
+
+
+var aFruits = ["Apple","Banana","Cherry"];
+aFruits[0]
+aFruits[2]
+aFruits.length
+aFruits.push("Litchi")
+aFruits[aFruits.length - 1]
+aFruits.pop();
+
+
+aFruits.splice(2,0,"Pineapple")
+aFruits
+aFruits.splice(1,1)
+for(var i=0; i < aFruits.length; i++){
+    var item = aFruits[i];
+    console.log(item);    
+}
+aFruits.forEach(function(item){
+    console.log(item)
+});
+
+var oEmp = {
+    "empId": 100,
+    "empName": "Anubhav",
+    "salary" : 9000,
+    "currency":"EUR",
+    "smoker":false
+}
+typeof(oEmp)
+oEmp.empId
+oEmp.empName = "Ananya"
+var str = JSON.stringify(oEmp);
+str;
+JSON.parse(str);
+for(key in oEmp){
+    console.log(key + " ====> " + oEmp[key]);
+}

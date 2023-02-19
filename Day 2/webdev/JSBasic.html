@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            .box{
+                width:160px;
+                float:left;
+                margin: 10px;
+            }
+            .box-title{
+                color:red;
+                border: 1px solid black;
+                text-align: center;
+            }
+            .box-content{
+                color:blueviolet;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                border:1px solid black;
+                height:180px;
+                padding:10px;
+            }
+        </style>
+        <script src="./util/reuse.js">
+            
+        </script>
+
+    </head>
+    <body>
+
+        <div class="box">
+            <div class="box-title">
+                <h3 >What is HTML?</h3>
+            </div>
+            <div class="box-content">
+                <p>HTML stands for Hyper Text Markup Language, it is used to create static web page.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-title">
+                <h3 >What is CSS?</h3>
+            </div>
+            <div class="box-content">
+                <p>CSS stands for Cascading Style Sheet, it is used to beautify HTML content.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-title">
+                <h3 >What is JS?</h3>
+            </div>
+            <div class="box-content">
+                <p>JS stands for Java Script, it is browser programming language.</p>
+            </div>
+        </div>
+
+        <div style="clear: left;">
+
+        <button onclick="chandra()">Click Me</button>
+        <button onclick="shaji()">Magic</button>
+        <button onclick="addContent()">Add Content</button>
+        <button onclick="async()">Demo Async Prog</button>
+        <div id="canvas"></div>
+        <div>
+            <label>User</label>
+            <input id="idUsr">
+        </div>
+        <div>
+            <label>Password</label>
+            <input id="idPwd">
+        </div>
+        <label id="idMsg" style="color:red"></label>
+        <button onclick="onLogin()">Login</button>
+    </body>
+
+</html>
