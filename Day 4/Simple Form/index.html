@@ -1,0 +1,37 @@
+<html>
+    <head>
+        
+        <script src="https://ui5.sap.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_fiori_3_dark"
+                data-sap-ui-resourceroots='{
+                    "mickey": "./"
+                }'
+        ></script>
+        
+        <script>
+            // var oShaji = new sap.m.Button({
+            //     text: 'Click me',
+            //     press: function(){
+            //         alert('hey team');
+            //     },
+            //     icon: "sap-icon://business-objects-mobile"
+            // });
+
+            var oShaji = new sap.ui.view({
+                viewName: "mickey.view.Main",
+                type: "XML"
+            });
+
+            oShaji.placeAt("rakesh");
+
+        </script>
+
+
+    </head>
+    <body class="sapUiBody">
+        <div id="rakesh"></div>
+    </body>
+
+
+</html>
